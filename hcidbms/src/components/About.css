@@ -1,0 +1,94 @@
+.about-container {
+    padding: 40px;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff0000;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-content h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 15px;
+  }
+  
+  .section-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .section-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-content ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .section-content ul li strong {
+    color: #e9446a;
+  }
+  
+  .section-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reverse section layout for vision section */
+  .vision-section .section-content {
+    order: 2;
+  }
+  
+  .vision-section .section-image {
+    order: 1;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+    
+    .section-image,
+    .section-content {
+      flex: none;
+    }
+  
+    .section-image img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,59 @@
+/* Banner Section */
+.home {
+    text-align: center;
+  }
+  
+  .banner {
+    position: relative;
+    background-image: url('https://www.shutterstock.com/image-vector/cute-kids-paint-drawings-on-600nw-683411428.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(255, 0, 208);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    max-width: 700px;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content-section {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .content-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .content-section h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #ff0000;
+  }
+  
